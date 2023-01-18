@@ -1,0 +1,91 @@
+.h1{
+    align-items: center;
+}
+.h2{
+    text-align: center;
+    color: maroon;
+}
+
+.body{
+    background-color: maroon;
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.divleft {
+    float: left;
+    display: block;
+    margin: auto;
+    align-content: center;
+    height: available;
+    width: 30%;
+    padding: 15px;
+}
+
+.wrapper {
+    display: block;
+    margin: 0% 5% 0% 5%;
+    align-content: center;
+    height: available;
+    width: available;
+    padding: 10px;
+}
+
+.mapDiv {
+    margin: auto 5px;
+    float: center;
+    height: 1000px;
+    right: -60px;
+
+    width: auto;
+    padding: 10px;
+    border: 1px solid #e8e8e8;
+}
+
+.polygon {
+    stroke: #8d1919;
+    color: #8d1919;
+}
+
+.searchFeedback {
+    margin: 15px 0px 15px 0px;
+    display: block;
+}
+
+.searchBox {
+    margin: 25px 0px 15px 1px;
+    display: block;
+    width: 30%;
+    border: 1px solid #8d1919;
+}
+
+.button {
+    background-color: white; 
+    color: black;
+    margin: 0px 2px 13px 1px;
+    cursor: pointer;
+    border: 1px solid #8d1919;
+}
+
+.button:hover {
+    background-color: #8d1919;
+    color: white;
+  }
+
+  .dividerBar {
+    height: 2px;
+    color: #8d1919;
+    background-color: #8d1919;
+  }
